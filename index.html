@@ -4,33 +4,69 @@
 	<meta charset="UTF-8">
 	<title>Cooking Website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<header>
-		<h1>Welcome to Cooking Website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Recipes</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
+		<div class="header-container">
+			<div class="logo">
+				<h1>Cooking Website</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Recipes</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="search-box">
+				<input type="text" placeholder="Search...">
+				<button type="submit">Go</button>
+			</div>
+		</div>
 	</header>
 
-	<section>
-		<h2>Featured Recipe</h2>
-		<article>
-			<h3>Pesto Pasta with Grilled Chicken</h3>
-			<img src="pesto-pasta.jpg" alt="Pesto Pasta with Grilled Chicken">
-			<p>This delicious pesto pasta recipe is sure to be a hit with the whole family. Tender grilled chicken is paired with al dente pasta and a homemade pesto sauce made with fresh basil, garlic, and pine nuts.</p>
-			<a href="#">Get the Recipe</a>
-		</article>
+	<section class="featured-recipe">
+		<div class="container">
+			<h2>Featured Recipe</h2>
+			<article>
+				<h3>Pesto Pasta with Grilled Chicken</h3>
+				<img src="pesto-pasta.jpg" alt="Pesto Pasta with Grilled Chicken">
+				<p>This delicious pesto pasta recipe is sure to be a hit with the whole family. Tender grilled chicken is paired with al dente pasta and a homemade pesto sauce made with fresh basil, garlic, and pine nuts.</p>
+				<a href="#">Get the Recipe</a>
+			</article>
+		</div>
 	</section>
 
-	<footer>
-		<p>&copy; 2023 Cooking Website. All rights reserved.</p>
-	</footer>
-</body>
-</html>
+	<section class="recent-recipes">
+		<div class="container">
+			<h2>Recent Recipes</h2>
+			<div class="recipe-list">
+				<article>
+					<h3>Grilled Steak with Chimichurri Sauce</h3>
+					<img src="steak.jpg" alt="Grilled Steak with Chimichurri Sauce">
+					<p>This grilled steak recipe is packed with flavor thanks to the zesty chimichurri sauce made with fresh parsley, garlic, and red pepper flakes.</p>
+					<a href="#">Get the Recipe</a>
+				</article>
+				<article>
+					<h3>Sheet Pan Chicken Fajitas</h3>
+					<img src="fajitas.jpg" alt="Sheet Pan Chicken Fajitas">
+					<p>These easy sheet pan chicken fajitas are perfect for a quick and healthy dinner. Simply toss together chicken, peppers, and onions with fajita seasoning and bake in the oven.</p>
+					<a href="#">Get the Recipe</a>
+				</article>
+				<article>
+					<h3>Lemon Garlic Shrimp Linguine</h3>
+					<img src="shrimp.jpg" alt="Lemon Garlic Shrimp Linguine">
+					<p>This flavorful shrimp linguine recipe is the perfect balance of tangy lemon and savory garlic. It's easy to make and ready in just 20 minutes!</p>
+					<a href="#">Get the Recipe</a>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<section class="featured-chef">
+		<div class="container">
+			<h2>Featured Chef</
